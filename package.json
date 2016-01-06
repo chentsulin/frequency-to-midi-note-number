@@ -1,0 +1,36 @@
+{
+  "name": "frequency-to-midi-note-number",
+  "version": "0.1.0",
+  "description": "Mapping from Frequency to MIDI note number",
+  "license": "MIT",
+  "repository": "chentsulin/frequency-to-midi-note-number",
+  "scripts": {
+    "test": "mocha",
+    "test-travis": "node node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --reporter dot"
+  },
+  "author": {
+    "name": "C.T. Lin",
+    "email": "chentsulin@gmail.com",
+    "url": "github.com/chentsulin/frequency-to-midi-note-number"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "music",
+    "frequency",
+    "midi",
+    "midi-note-number"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^3.0.0",
+    "istanbul": "^0.4.1",
+    "mocha": "*"
+  }
+}
