@@ -1,9 +1,8 @@
-'use strict';
+const { expect } = require('chai');
 
-var expect = require('chai').expect;
-var frequencyToMidiNoteNumber = require('./');
+const frequencyToMidiNoteNumber = require('.');
 
-it('should works', function () {
+it('should works', () => {
   expect(frequencyToMidiNoteNumber(8.1757989156)).to.equal(0);
   expect(frequencyToMidiNoteNumber(8.6619572180)).to.equal(1);
   expect(frequencyToMidiNoteNumber(9.1770239974)).to.equal(2);
