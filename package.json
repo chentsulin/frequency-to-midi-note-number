@@ -34,6 +34,6 @@
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.24.0",
     "istanbul": "^0.4.1",
-    "mocha": "^9.0.3"
+    "mocha": "^9.2.2"
   }
 }
